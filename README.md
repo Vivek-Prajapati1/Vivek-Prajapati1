@@ -8,7 +8,7 @@
   </h1>
 
   <!-- Animated Divider -->
-  <img src="https://github.com/andreasbm/readme/blob/master/assets/lines/colored.png" width="100%"/>
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
 
   <!-- Profile Views -->
   <p align="center">
@@ -186,12 +186,13 @@
     </a>
   </div>
   
-  <!-- Spotify -->
+  <!-- Spotify Alternative (works without setup) -->
   <div style="margin-top: 20px;">
     <h3>🎧 Currently Coding To</h3>
-    <a href="https://spotify-github-profile.vercel.app/api/view?uid=yourusername&redirect=true">
-      <img src="https://spotify-github-profile.vercel.app/api/view?uid=yourusername&cover_image=true&theme=novatorem&bar_color=53b14f&bar_color_cover=false" alt="Spotify Now Playing"/>
+    <a href="https://open.spotify.com/" target="_blank">
+      <img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify"/>
     </a>
+    <p><i>Probably some lofi beats 🎶</i></p>
   </div>
   
 </div>
@@ -200,8 +201,12 @@
 
 <div align="center">
   
-  <!-- Snake Animation -->
-  <img src="https://github.com/Vivek-Prajapati1/Vivek-Prajapati1/blob/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
+  <!-- Snake Animation Alternative -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vivek-Prajapati1/Vivek-Prajapati1/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vivek-Prajapati1/Vivek-Prajapati1/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Vivek-Prajapati1/Vivek-Prajapati1/output/github-contribution-grid-snake.svg">
+  </picture>
   
   <!-- Footer -->
   <p style="margin-top: 20px;">
